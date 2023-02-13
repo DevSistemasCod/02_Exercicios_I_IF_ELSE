@@ -5,15 +5,14 @@ import java.util.Scanner;
 public class VerificaSeIguaisDif {
 
 	public static void main(String[] args) {
-		Scanner entrada1 = new Scanner(System.in);
-		Scanner entrada2 = new Scanner(System.in);
 		int valor1, valor2, resutado;
+		Scanner entrada = new Scanner(System.in);
 		
 		System.out.print("Digite o valor1: ");
-		valor1 = entrada1.nextInt();
+		valor1 = entrada.nextInt();
 		
 		System.out.print("Digite o valor2: ");
-		valor2 = entrada2.nextInt();
+		valor2 = entrada.nextInt();
 	
 		if (valor1 == valor2) {
 			System.out.println("Valores são iguais");
@@ -34,8 +33,7 @@ public class VerificaSeIguaisDif {
 			System.out.println("RESULTADO FINAL É 10");
 		}
 		
-		entrada1.close();
-		entrada2.close();
+		entrada.close();
 	}
 
 }
