@@ -3,10 +3,9 @@ package exercicios;
 import java.util.Scanner;
 
 public class ClassificaTipoTriang {
-
 	public static void main(String[] args) {
-		Scanner entrada = new Scanner(System.in);
 		float lado1, lado2, lado3;
+		Scanner entrada = new Scanner(System.in);
 		
 		System.out.println("Classifica  triângulo: ");
 		System.out.println("Informe o lado 1: ");
