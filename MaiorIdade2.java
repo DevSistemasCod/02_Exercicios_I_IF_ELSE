@@ -1,24 +1,21 @@
 package exercicios;
 
 import java.util.Scanner;
-public class MaiorIdade2 {
+public class MaiorIdade {
 
 	public static void main(String[] args) {
+		int idade;
 		Scanner entrada = new Scanner(System.in);
-		int numero, resto;
-			
-		System.out.println("Digite um número: ");
-		numero = entrada.nextInt();
-			
-		resto = numero % 2;
+		
+		System.out.println("Informe a idade: ");
+		idade = entrada.nextInt();
 					
-		if (resto == 0) {
-			System.out.print("O número é par");
+		if (idade >= 18) {
+			System.out.print("Maior de idade");
 		}else {
-			System.out.print("O número é ímpar");
+			System.out.print("Menor de idade");
 		}
 		entrada.close();
-		
 	}
 
 }
