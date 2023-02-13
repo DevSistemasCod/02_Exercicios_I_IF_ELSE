@@ -3,10 +3,9 @@ package exercicios;
 import java.util.Scanner;
 
 public class VerificaSePosNegOuZero {
-
 	public static void main(String[] args) {
-		Scanner entrada = new Scanner(System.in);
 		int valor;
+		Scanner entrada = new Scanner(System.in);
 		
 		System.out.print("Digite um valor: ");
 		valor = entrada.nextInt();
@@ -18,7 +17,7 @@ public class VerificaSePosNegOuZero {
 			System.out.println("O número é negativo !");
 		} 
 		else {
-			System.out.println("O número é neutro !");
+			System.out.println("O número é zero !");
 		}
 		entrada.close();
 	}
